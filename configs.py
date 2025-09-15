@@ -7,16 +7,16 @@ import os
 
 
 class Config(object):
-    API_ID = int(os.getenv("API_ID", 12345))
-    API_HASH = os.getenv("API_HASH", "")
-    BOT_TOKEN = os.getenv("BOT_TOKEN", "")
+    API_ID = int(os.getenv("API_ID", "24776633"))
+    API_HASH = os.getenv("API_HASH", "57b1f632044b4e718f5dce004a988d69")
+    BOT_TOKEN = os.getenv("BOT_TOKEN", "8210471056:AAEc76RNEX1w32M7WfyY3R8uKzEBy4aOb8s")
     BOT_SESSION_NAME = os.getenv("BOT_SESSION_NAME", "MdiskSearchRobot")
-    USER_SESSION_STRING = os.getenv("USER_SESSION_STRING", "")
-    CHANNEL_ID = int(os.getenv("CHANNEL_ID", -100))
-    BOT_USERNAME = os.getenv("BOT_USERNAME")
-    BOT_OWNER = int(os.getenv("BOT_OWNER"))
-#    OWNER_USERNAME = os.getenv("OWNER_USERNAME")
-    BACKUP_CHANNEL = os.getenv("BACKUP_CHANNEL")
+    USER_SESSION_STRING = os.getenv("USER_SESSION_STRING", "BQF6D7kAk_w2Vzb9xvOK6mcVaB7q4n5RTO31y509fISmec660LSHGE0RE54sSOvDCqImKn0K-pP1yMdrgqeT2trVTkrfmTzMgNVsI-7mCkBLYA1hvqKc_xuZ_dVYmPb2zm7_2QSbjZw8WNjfUss3L2JImLTcwt1IU9W7xNbQ6qcFGYNtub4DN7490YB-cl84lTpvszLLgmdZwZUjppxGo27V-T9LbosXQ8SSFsqJB-JOFcLE8NCS2Ns20GnfrrdiLBW3bM5bi3LmC8qDXVssqO1lPfym2tC6B3FiX4PtVh3lUgDexfW2OvuUL9DukEOLF5VqXDlMus9fdnOeUACALt1Zd5qS-wAAAAGrbKNNAA")
+    CHANNEL_ID = int(os.getenv("1002995070932", -100))
+    BOT_USERNAME = os.getenv("MdiskSearchRobot")
+    BOT_OWNER = int(os.getenv("7170990925"))
+#    OWNER_USERNAME = os.getenv("skomar")
+    BACKUP_CHANNEL = os.getenv("1002883125510")
 #    GROUP_USERNAME = os.getenv("GROUP_USERNAME")
     START_MSG = os.getenv("START_MSG", '''Hᴇʏ Bᴜᴅᴅʏ! 😃
 
